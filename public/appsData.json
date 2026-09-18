@@ -1,0 +1,362 @@
+[
+  {
+    "id": 1,
+    "title": "WhatsApp",
+    "companyName": "WhatsApp LLC",
+    "image": "https://png.pngtree.com/png-vector/20221018/ourmid/pngtree-whatsapp-icon-new-png-image_6315990.png",
+    "description": "Simple. Personal. Realtime messaging and calling around the world.",
+    "size": 42.5,
+    "reviews": 185000000,
+    "ratingAvg": 4.3,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 12000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 135000000 }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "image": "https://static.vecteezy.com/system/resources/previews/018/930/415/non_2x/instagram-logo-instagram-icon-transparent-free-png.png",
+    "description": "Create & share photos, stories, and videos with the friends and creators you love.",
+    "size": 58.2,
+    "reviews": 150000000,
+    "ratingAvg": 4.1,
+    "downloads": 5000000000,
+    "ratings": [
+      { "name": "1 star", "count": 15000000 },
+      { "name": "2 star", "count": 6000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 100000000 }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Spotify: Music and Podcasts",
+    "companyName": "Spotify AB",
+    "image": "https://download.logo.wine/logo/Spotify/Spotify-Logo.wine.png",
+    "description": "Listen to the music and podcasts you love, and discover new songs with custom playlists.",
+    "size": 35.0,
+    "reviews": 32000000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1800000 },
+      { "name": "2 star", "count": 800000 },
+      { "name": "3 star", "count": 1400000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "TikTok",
+    "companyName": "TikTok Pte. Ltd.",
+    "image": "https://w7.pngwing.com/pngs/514/448/png-transparent-tiktok-logo-brand-logos-brands-in-colors-icon.png",
+    "description": "Short-form mobile video destination for entertainment, music, and social trends.",
+    "size": 95.4,
+    "reviews": 98000000,
+    "ratingAvg": 4.3,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 70000000 }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "image": "https://www.gstatic.com/marketing-cms/assets/images/08/25/fffdc76145f28be3a1ca63859c4a/external-logo-core-1.png=n-w1860-h1047-fcrop64=1,00000000ffffffff-rw",
+    "description": "Watch your favorite music videos, channels, tutorials, and creators on mobile.",
+    "size": 48.0,
+    "reviews": 142000000,
+    "ratingAvg": 4.2,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 14000000 },
+      { "name": "2 star", "count": 5000000 },
+      { "name": "3 star", "count": 8000000 },
+      { "name": "4 star", "count": 20000000 },
+      { "name": "5 star", "count": 95000000 }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzY8xvrWvoFDILL5wZHabsYFNT2Ty_wkqrwSVhb39Sya7JTzFnZ27AFpKu&s=10",
+    "description": "Stream movies, TV shows, award-winning originals, and mobile games on demand.",
+    "size": 62.1,
+    "reviews": 14500000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Duolingo: Language Lessons",
+    "companyName": "Duolingo",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ61E8kLZUXtONI9NFqbFFrTPQI8CPCtVnJzJEzgsaWtg&s=10",
+    "description": "Learn 40+ languages through quick, bite-sized, gamified lessons.",
+    "size": 28.7,
+    "reviews": 21000000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 2700000 },
+      { "name": "5 star", "count": 17000000 }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Uber: Request a ride",
+    "companyName": "Uber Technologies, Inc.",
+    "image": "https://w7.pngwing.com/pngs/636/735/png-transparent-logo-uber-brand-design-text-logo-engineering.png",
+    "description": "Get a ride in minutes, order food, and reach your destination safely.",
+    "size": 51.3,
+    "reviews": 11500000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 400000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 9000000 }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Discord: Talk, Chat & Hang Out",
+    "companyName": "Discord Inc.",
+    "image": "https://1000logos.net/wp-content/uploads/2021/06/Discord-logo.png",
+    "description": "Create a space for your communities and friends to talk over text, voice, and video.",
+    "size": 74.2,
+    "reviews": 5600000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 600000 },
+      { "name": "2 star", "count": 200000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 750000 },
+      { "name": "5 star", "count": 3700000 }
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Slack",
+    "companyName": "Slack Technologies Inc.",
+    "image": "https://images.seeklogo.com/logo-png/49/1/slack-logo-png_seeklogo-496177.png",
+    "description": "Brings team communication and collaboration into one workplace app.",
+    "size": 39.8,
+    "reviews": 410000,
+    "ratingAvg": 4.3,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 25000 },
+      { "name": "2 star", "count": 10000 },
+      { "name": "3 star", "count": 20000 },
+      { "name": "4 star", "count": 75000 },
+      { "name": "5 star", "count": 280000 }
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Pinterest",
+    "companyName": "Pinterest",
+    "image": "https://1000logos.net/wp-content/uploads/2018/03/Pinterest-logo.jpg",
+    "description": "Discover lifestyle inspiration, recipe ideas, home design, and fashion trends.",
+    "size": 45.6,
+    "reviews": 10200000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1300000 },
+      { "name": "5 star", "count": 8000000 }
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Reddit",
+    "companyName": "Reddit Inc.",
+    "image": "https://1000logos.net/wp-content/uploads/2017/05/Reddit-Logo.png",
+    "description": "Dive into topics you love with online communities, news, discussions, and memes.",
+    "size": 61.0,
+    "reviews": 3800000,
+    "ratingAvg": 4.0,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 450000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 200000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2500000 }
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Google Maps",
+    "companyName": "Google LLC",
+    "image": "https://e7.pngegg.com/pngimages/123/844/png-clipart-google-maps-location-google-map-maker-google-logo-signage-thumbnail.png",
+    "description": "Real-time GPS navigation, traffic alerts, public transit info, and local business reviews.",
+    "size": 54.1,
+    "reviews": 18000000,
+    "ratingAvg": 4.3,
+    "downloads": 10000000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 13000000 }
+    ]
+  },
+  {
+    "id": 14,
+    "title": "LinkedIn: Jobs & Business News",
+    "companyName": "LinkedIn",
+    "image": "https://download.logo.wine/logo/LinkedIn/LinkedIn-Logo.wine.png",
+    "description": "Network with professionals, search job openings, and follow business news.",
+    "size": 40.2,
+    "reviews": 2900000,
+    "ratingAvg": 4.2,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 120000 },
+      { "name": "4 star", "count": 500000 },
+      { "name": "5 star", "count": 2000000 }
+    ]
+  },
+  {
+    "id": 15,
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "image": "https://cdn.freebiesupply.com/logos/large/2x/chatgpt-logo-png-transparent.png",
+    "description": "Get instant answers, creative inspiration, and professional productivity support.",
+    "size": 22.4,
+    "reviews": 4500000,
+    "ratingAvg": 4.7,
+    "downloads": 100000000,
+    "ratings": [
+      { "name": "1 star", "count": 100000 },
+      { "name": "2 star", "count": 40000 },
+      { "name": "3 star", "count": 80000 },
+      { "name": "4 star", "count": 480000 },
+      { "name": "5 star", "count": 3800000 }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0sTwXhleUZn_E06mmhNHMDswogHmwouG6Ps9FN8TgPIApxZV-xb6mFMY&s=10",
+    "description": "Pure instant messaging — simple, fast, secure, and synced across all your devices.",
+    "size": 48.3,
+    "reviews": 12800000,
+    "ratingAvg": 4.4,
+    "downloads": 1000000000,
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 500000 },
+      { "name": "4 star", "count": 1700000 },
+      { "name": "5 star", "count": 9500000 }
+    ]
+  },
+  {
+    "id": 17,
+    "title": "CapCut - Video Editor",
+    "companyName": "Bytedance Pte. Ltd.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ92LEtpfMYE_NGl_N7QgEcuZ5EdLxPxjaz_m9EZW4V7A&s=10",
+    "description": "Easy-to-use video editing app with trending filters, effects, and smart AI features.",
+    "size": 112.5,
+    "reviews": 8900000,
+    "ratingAvg": 4.5,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 350000 },
+      { "name": "4 star", "count": 1000000 },
+      { "name": "5 star", "count": 7000000 }
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Canva: Design, Photo & Video",
+    "companyName": "Canva",
+    "image": "https://img.logo.dev/canva.com?token=live_6a1a28fd-6420-4492-aeb0-b297461d9de2&size=128&retina=true&format=png",
+    "description": "Create stunning social media posts, presentations, posters, and videos effortlessly.",
+    "size": 34.1,
+    "reviews": 14200000,
+    "ratingAvg": 4.8,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 100000 },
+      { "name": "3 star", "count": 300000 },
+      { "name": "4 star", "count": 1500000 },
+      { "name": "5 star", "count": 12000000 }
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Zoom Workplace",
+    "companyName": "zoom.us",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKQkuS7D56347ery_BNHOoJg1APx61co_pKpg4Dg89cw&s=10",
+    "description": "Work together with team chat, phone, whiteboard, and HD video meetings.",
+    "size": 55.4,
+    "reviews": 3600000,
+    "ratingAvg": 4.1,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 150000 },
+      { "name": "3 star", "count": 250000 },
+      { "name": "4 star", "count": 600000 },
+      { "name": "5 star", "count": 2200000 }
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Shazam: Find Music in Seconds",
+    "companyName": "Apple Inc.",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS5AuhwXgVPlT7UEHksLuj7qApnLsy9NJEqQCJbp0Pyw&s=10",
+    "description": "Identify any song playing around you in seconds and discover artists and lyrics.",
+    "size": 18.2,
+    "reviews": 7500000,
+    "ratingAvg": 4.7,
+    "downloads": 500000000,
+    "ratings": [
+      { "name": "1 star", "count": 200000 },
+      { "name": "2 star", "count": 80000 },
+      { "name": "3 star", "count": 180000 },
+      { "name": "4 star", "count": 840000 },
+      { "name": "5 star", "count": 6200000 }
+    ]
+  }
+]
