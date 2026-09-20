@@ -2,15 +2,13 @@ import React from "react";
 import { IoStar } from "react-icons/io5";
 import { GoDownload } from "react-icons/go";
 
-const Cards = ({ items }) => {
-  const cardsData = items;
-  console.log(cardsData);
-  const { id, title, image, ratingAvg, downloads } = cardsData;
-
+const HomeCards = ({ app }) => {
+  const { id, title, image, ratingAvg, downloads } = app;
+  console.log(app);
   return (
-    <div className="card bg-base-100 w-96 md:w-105 h-full shadow-xl">
-      <figure className="bg-[#D9D9D9] w-88 md:w-95 mt-5 h-full rounded-xl p-2 md:p-5 mx-auto">
-        <img className="w-3/6 md:w-7/8" src={image} alt="image" />
+    <div className="card bg-base-100 w-105 h-full shadow-xl">
+      <figure className="bg-[#D9D9D9] w-95 mt-5 h-full rounded-xl p-5 mx-auto">
+        <img className="w-7/8" src={image} alt="image" />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{title}</h2>
@@ -29,4 +27,4 @@ const Cards = ({ items }) => {
   );
 };
 
-export default Cards;
+export default HomeCards;

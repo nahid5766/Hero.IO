@@ -16,6 +16,7 @@ const Banner = () => {
             Apps
           </h1>
         </div>
+
         <p className="text-center text-[#627382]">
           At HERO.IO, we craft innovative apps designed to make everyday life
           simpler, smarter, and more exciting. <br />
@@ -46,51 +47,24 @@ const Banner = () => {
             Trusted by Millions, Built for You
           </h1>
         </div>
-        <div className="flex justify-between items-center p-10 mx-50 ">
-          <div className="justify-center text-center text-white">
+
+        <div className="flex flex-col md:flex-row justify-between items-center gap-8 py-8 px-4 max-w-5xl mx-auto">
+          <div className=" text-center text-white">
             <p className="text-sm text-gray-300">Total Downloads</p>
             <h1 className="text-4xl font-extrabold leading-relaxed">29.6M</h1>
             <p className="text-sm text-gray-300">21% more than last month</p>
           </div>
-          <div className="justify-center text-center text-white">
+
+          <div className="text-center text-white">
             <p className="text-sm text-gray-300">Total Reviews</p>
             <h1 className="text-4xl font-extrabold leading-relaxed">906K</h1>
             <p className="text-sm text-gray-300">46% more than last month</p>
           </div>
-          <div className="justify-center text-center text-white">
+
+          <div className=" text-center text-white">
             <p className="text-sm text-gray-300">Active Apps</p>
             <h1 className="text-4xl font-extrabold leading-relaxed">132+</h1>
             <p className="text-sm text-gray-300">31 more will Launch</p>
-          </div>
-        </div>
-      </div>
-
-      <div className="border bg-[#D2D2D2]/30 ">
-        <div className="mt-10 text-center">
-          <h1 className="text-3xl font-extrabold">Trending Apps</h1>
-          <p className="text-gray-500 mt-3 text-center">
-            Explore All Trending Apps on the Market developed by us
-          </p>
-        </div>
-        {/* card section */}
-        <div className="">
-          <div className="card bg-base-100 w-60 shadow-sm mt-10">
-            <figure>
-              <img
-                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                alt="Shoes"
-              />
-            </figure>
-            <div className="card-body">
-              <h2 className="card-title">Card Title</h2>
-              <p>
-                A card component has a figure, a body part, and inside body
-                there are title and actions parts
-              </p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
-              </div>
-            </div>
           </div>
         </div>
       </div>
