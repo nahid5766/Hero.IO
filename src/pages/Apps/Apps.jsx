@@ -63,7 +63,7 @@ const Apps = () => {
         </div>
 
         {/* use filteredApps to render the cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 justify-center items-center mx-auto max-w-max">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 justify-center items-center mx-auto max-w-max">
           {filteredApps.length > 0 ? (
             filteredApps.map((items) => (
               <Cards key={items.id} items={items}></Cards>
