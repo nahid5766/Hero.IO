@@ -4,6 +4,7 @@ import ratings from "../../assets/icon-ratings.png";
 import review from "../../assets/icon-review.png";
 import img from "../../assets/demo-app (1).webp";
 import { useLoaderData, useParams } from "react-router";
+import { ToastContainer, toast } from "react-toastify";
 
 import {
   ComposedChart,
@@ -15,13 +16,21 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
+import { addStoredDB } from "../../Utility/addToDB";
 
 const AppsDetails = () => {
   // for install btn
   const [isInstalled, setInstalled] = useState(false);
 
-  const handleInstalled = () => {
+  const handleInstalled = (id) => {
     setInstalled(true);
+    // toast
+    toast.success(`${title || "App"} Installed Successfully!`, {
+      position: "top-right",
+      autoClose: 2000,
+    });
+
+    addStoredDB(id);
   };
 
   const { id } = useParams();
@@ -38,13 +47,13 @@ const AppsDetails = () => {
 
   const {
     title,
+    size,
     companyName,
     image,
     description,
     reviews,
     ratingAvg,
     downloads,
-    size = "120 MB",
     ratings: appRatings = [],
   } = singleApp || {};
 
@@ -85,14 +94,14 @@ const AppsDetails = () => {
             <div className="mt-5">
               <button
                 disabled={isInstalled}
-                onClick={handleInstalled}
+                onClick={() => handleInstalled(id)}
                 className={`btn ${
                   isInstalled
                     ? "btn-disabled bg-gray-300 text-gray-500 cursor-not-allowed"
                     : "btn-success hover:p-5 hover:bg-green-500"
                 }`}
               >
-                {isInstalled ? "Installed" : "Install Now 120 MB"}
+                {isInstalled ? "Installed" : `Install Now ${size} MB`}
               </button>
             </div>
           </div>
@@ -123,6 +132,7 @@ const AppsDetails = () => {
         <h2 className="font-bold">Description</h2>
         <p>{description}</p>
       </div>
+      <ToastContainer />
     </div>
   );
 };
