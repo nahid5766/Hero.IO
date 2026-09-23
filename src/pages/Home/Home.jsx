@@ -31,7 +31,7 @@ const Home = () => {
 
           <Link to="/apps">
             <div className="mt-10 text-center">
-              <button className="btn bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white">
+              <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
                 Show All
               </button>
             </div>

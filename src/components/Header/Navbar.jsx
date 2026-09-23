@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[50] mt-3 w-52 p-4 shadow-lg flex flex-col gap-3"
+            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-50 mt-3 w-52 p-4 shadow-lg flex flex-col gap-3"
           >
             <li>
               <NavLink to="/" className={linkStyle}>
@@ -62,7 +62,7 @@ const Navbar = () => {
         {/* Logo Section */}
         <NavLink to="/" className="flex items-center gap-2">
           <img className="w-8 sm:w-10" src={logo} alt="HERO.IO Logo" />
-          <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <span className="text-lg sm:text-xl font-bold bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             HERO.IO
           </span>
         </NavLink>
@@ -95,7 +95,7 @@ const Navbar = () => {
           href="https://github.com/nahid5766"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-sm sm:btn-md text-white bg-gradient-to-r from-[#632EE3] to-[#9F62F2] border-none flex items-center gap-2 px-3 sm:px-4"
+          className="btn btn-sm sm:btn-md text-white bg-linear-to-r from-[#632EE3] to-[#9F62F2] border-none flex items-center gap-2 px-3 sm:px-4"
         >
           <FaGithub className="text-base sm:text-lg" />
           <span className="text-xs sm:text-sm">Contribute</span>

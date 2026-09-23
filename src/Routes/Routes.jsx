@@ -1,6 +1,5 @@
 import React from "react";
 import { createBrowserRouter } from "react-router";
-import { RouterProvider } from "react-router/dom";
 import Root from "../pages/Root/Root";
 import ErrorPage from "../pages/ErrorPage/ErrorPage";
 import Home from "../pages/Home/Home";
@@ -11,29 +10,28 @@ import AppsDetails from "../pages/AppsDetails/AppsDetails";
 export const router = createBrowserRouter([
   {
     path: "/",
-    Component: Root,
-    errorElement: <ErrorPage></ErrorPage>,
+    element: <Root />,
+    errorElement: <ErrorPage />,
     children: [
       {
-        index: true,
-        path: "/",
-        loader: () => fetch("/public/appsData.json"),
-        Component: Home,
+        index: true, 
+        loader: () => fetch("/appsData.json"),
+        element: <Home />,
       },
       {
-        path: "/apps",
-        loader: () => fetch("/public/appsData.json"),
-        Component: Apps,
+        path: "apps",
+        loader: () => fetch("/appsData.json"),
+        element: <Apps />,
       },
       {
-        path: "/installation",
-        loader: () => fetch("/public/appsData.json"),
-        Component: Installation,
+        path: "installation",
+        loader: () => fetch("/appsData.json"),
+        element: <Installation />,
       },
       {
-        path: "/appsDetails/:id",
-        loader: () => fetch("/public/appsData.json"),
-        Component: AppsDetails,
+        path: "appsDetails/:id",
+        loader: () => fetch("/appsData.json"),
+        element: <AppsDetails />,
       },
     ],
   },

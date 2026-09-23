@@ -80,7 +80,7 @@ const AppsDetails = () => {
 
             <div className="border-b border-gray-400/50 my-4"></div>
 
-            {/* Stats Grid */}
+            {/* Stats Grid from here */}
             <div className="grid grid-cols-3 gap-2 sm:gap-6 max-w-md mx-auto md:mx-0 py-2">
               <div className="flex flex-col items-center md:items-start">
                 <img

@@ -10,7 +10,7 @@ const Banner = () => {
         <div className="flex justify-center">
           <h1 className="text-4xl text-center font-extrabold  leading-normal  mt-10">
             We Build <br />
-            <span className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            <span className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               Productive
             </span>
             Apps
@@ -41,7 +41,7 @@ const Banner = () => {
           alt=""
         />
       </div>
-      <div className="bg-gradient-to-r from-[#632EE3] to-[#9F62F2] pt-10 p-10">
+      <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2] pt-10 p-10">
         <div className="flex justify-center">
           <h1 className="text-4xl font-extrabold text-white text-center">
             Trusted by Millions, Built for You
