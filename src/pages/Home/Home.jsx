@@ -21,10 +21,12 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-5 justify-center items-center mx-auto max-w-max">
-            {appsData.slice(0, 8).map((app) => (
-              <HomeCards key={app.id} app={app}></HomeCards>
-            ))}
+          <div className="w-full max-w-14/15 mx-auto px-4 sm:px-6 lg:px-2 my-10">
+            <div className=" grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+              {appsData.slice(0, 8).map((app) => (
+                <HomeCards key={app.id} app={app}></HomeCards>
+              ))}
+            </div>
           </div>
 
           <Link to="/apps">

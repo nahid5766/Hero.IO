@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { getStoredApps } from "../../Utility/addToDB";
+import { getStoredApps, removeFromDB } from "../../Utility/addToDB";
 import { useLoaderData } from "react-router";
 import AppsInstalled from "../AppsInstalled/AppsInstalled";
+import { ToastContainer, toast } from "react-toastify";
 
 const Installation = () => {
   const [installed, setInstalled] = useState([]);
@@ -23,14 +24,34 @@ const Installation = () => {
 
   const handleShorted = (type) => {
     setSort(type);
-    if (type === "Low-High") {
-      const shortedLowToHIgh = [...installed].sort((a, b) => a.low - b.low);
-      setInstalled(shortedLowToHIgh);
+    const sortedApps = [...installed].sort((a, b) => {
+      const sizeA = parseFloat(a.size);
+      const sizeB = parseFloat(b.size);
+
+      if (type === "Low-High") {
+        return sizeA - sizeB;
+      } else if (type === "High-Low") {
+        return sizeB - sizeA;
+      }
+      return 0;
+    });
+    setInstalled(sortedApps);
+  };
+
+  const handleUninstall = (app) => {
+    const id = app.id;
+    const appName = app.title;
+    const remainingApps = installed.filter((app) => app.id !== id);
+    setInstalled(remainingApps);
+
+    if (typeof removeFromDB === "function") {
+      removeFromDB(id);
     }
-    if (type === "High-Low") {
-      const shortedHighToLow = [...installed].sort((a, b) => a.high - b.high);
-      setInstalled(shortedHighToLow);
-    }
+
+    toast.success(`${appName} Uninstalled Successfully!`, {
+      position: "top-right",
+      autoClose: 2000,
+    });
   };
 
   return (
@@ -42,10 +63,10 @@ const Installation = () => {
         </p>
       </div>
 
-      <div className="flex justify-between px-19">
+      <div className="flex justify-between px-19 py-6">
         <h1 className="text-2xl font-bold">{installed.length} App found</h1>
 
-        <div className="dropdown">
+        <div className="dropdown ">
           <div tabIndex={0} role="button" className="btn m-1">
             Sort By Size {sort ? sort : ""}
           </div>
@@ -64,10 +85,15 @@ const Installation = () => {
       </div>
 
       <div>
-        {
-          installed.map((a)=>(<AppsInstalled key={a.id} installedApps={a}></AppsInstalled>))
-        }
+        {installed.map((a) => (
+          <AppsInstalled
+            key={a.id}
+            installedApps={a}
+            handleUninstall={handleUninstall}
+          ></AppsInstalled>
+        ))}
       </div>
+      <ToastContainer />
     </div>
   );
 };

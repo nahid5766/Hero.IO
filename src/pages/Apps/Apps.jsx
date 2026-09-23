@@ -63,16 +63,18 @@ const Apps = () => {
         </div>
 
         {/* use filteredApps to render the cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-5 justify-center items-center mx-auto max-w-max">
-          {filteredApps.length > 0 ? (
-            filteredApps.map((items) => (
-              <Cards key={items.id} items={items}></Cards>
-            ))
-          ) : (
-            <p className="col-span-4 text-center text-gray-500 my-10 font-bold">
-              No apps found matching "{searchQuery}"
-            </p>
-          )}
+        <div className="w-full max-w-14/15 mx-auto px-4 sm:px-6 lg:px-2 my-10">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            {filteredApps.length > 0 ? (
+              filteredApps.map((items) => (
+                <Cards key={items.id} items={items}></Cards>
+              ))
+            ) : (
+              <p className="col-span-4 text-center text-gray-500 my-10 font-bold">
+                No apps found "{searchQuery}"
+              </p>
+            )}
+          </div>
         </div>
       </div>
     </Suspense>

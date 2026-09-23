@@ -27,11 +27,11 @@ const Banner = () => {
       <div className="flex mt-10 items-center justify-center gap-3">
         <button className="border border-gray-400 flex p-2 rounded-sm">
           <img className="w-5" src={gStoreImg} alt="" />
-          <span className="ml-2 font-extrabold">Google Play</span>
+          <a href="https://play.google.com/store/games?hl=en" target="_blank"><span className="ml-2 font-extrabold">Google Play</span></a>
         </button>
         <button className="border border-gray-400 flex p-2 rounded-sm">
           <img className="w-7" src={aStoreImg} alt="" />
-          <span className="ml-2 font-extrabold">App Store</span>
+          <a href="https://www.apple.com/app-store/" target="_blank"><span className="ml-2 font-extrabold">App Store</span></a>
         </button>
       </div>
       <div className="mt-15">

@@ -10,9 +10,9 @@ const Cards = ({ items }) => {
 
   return (
     <Link to={`/appsDetails/${id}`} className="block h-full">
-      <div className="card bg-base-100 w-105 h-full shadow-xl">
-        <figure className="bg-[#D9D9D9] w-95 mt-5 h-full rounded-xl p-5 mx-auto">
-          <img className="w-7/8" src={image} alt="image" />
+      <div className="card bg-base-100 w-full h-full shadow-xl hover:shadow-2xl transition-shadow p-4 rounded-xl">
+        <figure className="bg-[#D9D9D9] w-full h-68 rounded-xl p-4 flex items-center justify-center">
+          <img className="max-h-full object-contain" src={image} alt="image" />
         </figure>
         <div className="card-body">
           <h2 className="card-title">{title}</h2>
